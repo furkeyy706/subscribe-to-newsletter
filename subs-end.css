@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(235, 18%, 26%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  font-family: 'Roboto-Regular', sans-serif;
+
+  line-height: 1.5;
+  font-size: 16px;
+  color: hsl(235, 18%, 26%);
+}
+
+.container {
+  width: 500px;
+  height: 580px;
+
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+}
+
+.head {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 60px;
+  margin-right: 40px;
+  color: hsl(234, 29%, 20%);
+}
+
+.close-button {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button:hover {
+  background-color: tomato;
+}
+
+.message {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#okey-icon {
+  margin-left: 65px;
+  margin-top: 50px;
+}
+
+#close-message {
+  margin-left: 40px;
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-content {
+    text-align: center;
+  }
+
+  .side-image {
+    order: -1;
+  }
+}

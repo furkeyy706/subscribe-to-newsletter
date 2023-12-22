@@ -1,0 +1,101 @@
+body {
+  font-family: Roboto-Bold;
+  background-color: hsl(235, 18%, 26%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img.svg-image {
+  margin-right: 10px;
+}
+
+p {
+  margin: 15px;
+
+  font-size: 16px;
+  color: hsl(235, 18%, 26%);
+}
+.container {
+  /* width: 1440px; */
+
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.head {
+  font-size: 60px;
+  margin-left: 10px;
+  color: hsl(234, 29%, 20%);
+}
+
+.form-content {
+  margin-left: 20px;
+  display: flex;
+}
+
+.form-text {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  border: solid 1px hsl(231, 7%, 60%);
+}
+
+input,
+button {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 20px;
+
+  margin-top: 10px;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.sub-button {
+  width: 435px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-button:hover {
+  background-color: tomato;
+}
+
+#email:hover {
+  border: solid 1px black;
+}
+
+#email:focus {
+  background-color: wheat;
+}
+
+#subscription-form {
+  margin-top: 15px;
+  margin-left: 18px;
+}
+
+.side-image {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-content {
+    text-align: center;
+  }
+
+  .side-image {
+    order: -1;
+  }
+}
